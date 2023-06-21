@@ -1,0 +1,56 @@
+----------------------------------- QUEUE--------------------------------
+
+const a = 1;
+const b = 10;
+const c = 100;
+
+// call stack
+console.log('1');
+
+setTimeout(() => {
+    console.log('2'); // asycronis
+}, 0)
+
+
+console.log('3');
+
+
+//CALL STACK
+
+
+//WEB API
+
+Callback()
+//CALLBACK QUEUE
+
+
+//EVENT LOOP
+element.addEventListener('click', () => {
+    console.log("click")
+})
+
+
+const one = () => {
+    const two = () => {
+        console.log('4');
+    }
+    two();
+}
+
+//stackover flow
+
+//Recursion --- keeps looping without stop
+function foo() {
+    foo()
+}
+
+foo()
+
+--------------------------------------
+
+
+
+
+
+
+
